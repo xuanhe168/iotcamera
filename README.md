@@ -17,20 +17,16 @@ Usage
 Step 1. Add the JitPack repository to your build file.Add it in your root build.gradle at the end of repositories:  
 ```java
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-
-            flatDir {
-                            dirs 'libs', '../libusbcamera/libs'
-                        }
-		}
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```  
 Step 2. Add the dependency  
 ```java
 dependencies {
-	implementation 'com.github.jiangdongguo:AndroidUSBCamera:2.3.8'
+    implementation 'com.github.mingyouzhu:iotcamera:v1.0'
 }
 ```
 ### 2. APIs Introduction  
